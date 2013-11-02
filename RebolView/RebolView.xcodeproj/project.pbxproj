@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		850FFBE41824FCE200BB3A6A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850FFBE31824FCE200BB3A6A /* Cocoa.framework */; };
+		850FFBEE1824FCE200BB3A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 850FFBEC1824FCE200BB3A6A /* InfoPlist.strings */; };
+		850FFBF01824FCE200BB3A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFBEF1824FCE200BB3A6A /* main.m */; };
+		850FFBF41824FCE200BB3A6A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 850FFBF21824FCE200BB3A6A /* Credits.rtf */; };
+		850FFBFC1824FCE200BB3A6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850FFBFB1824FCE200BB3A6A /* Images.xcassets */; };
+		850FFC031824FCE200BB3A6A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850FFC021824FCE200BB3A6A /* XCTest.framework */; };
+		850FFC041824FCE200BB3A6A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850FFBE31824FCE200BB3A6A /* Cocoa.framework */; };
+		850FFC0C1824FCE200BB3A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 850FFC0A1824FCE200BB3A6A /* InfoPlist.strings */; };
+		850FFC0E1824FCE200BB3A6A /* RebolViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC0D1824FCE200BB3A6A /* RebolViewTests.m */; };
+		850FFC181824FCEF00BB3A6A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850FFC171824FCEF00BB3A6A /* WebKit.framework */; };
+		850FFC341824FD8800BB3A6A /* RBVDOMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC1B1824FD8800BB3A6A /* RBVDOMDocument.m */; };
+		850FFC351824FD8800BB3A6A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 850FFC1C1824FD8800BB3A6A /* index.html */; };
+		850FFC361824FD8800BB3A6A /* RBVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC1E1824FD8800BB3A6A /* RBVAppDelegate.m */; };
+		850FFC371824FD8800BB3A6A /* RBVRebol.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC221824FD8800BB3A6A /* RBVRebol.m */; };
+		850FFC381824FD8800BB3A6A /* RBVRebolBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC251824FD8800BB3A6A /* RBVRebolBlock.m */; };
+		850FFC391824FD8800BB3A6A /* RBVRebolObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC271824FD8800BB3A6A /* RBVRebolObject.m */; };
+		850FFC3A1824FD8800BB3A6A /* RBVRebolString.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC291824FD8800BB3A6A /* RBVRebolString.m */; };
+		850FFC3B1824FD8800BB3A6A /* RBVRebolUnkown.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC2B1824FD8800BB3A6A /* RBVRebolUnkown.m */; };
+		850FFC3C1824FD8800BB3A6A /* RBVRebolWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC2D1824FD8800BB3A6A /* RBVRebolWord.m */; };
+		850FFC3D1824FD8800BB3A6A /* DOMNode+TWProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC301824FD8800BB3A6A /* DOMNode+TWProtocol.m */; };
+		850FFC3E1824FD8800BB3A6A /* RBVTreeWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = 850FFC321824FD8800BB3A6A /* RBVTreeWalker.m */; };
+		850FFC401824FEC300BB3A6A /* RebolLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850FFC3F1824FEC300BB3A6A /* RebolLib.framework */; };
+		850FFC45182500BA00BB3A6A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850FFC44182500BA00BB3A6A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		850FFC051824FCE200BB3A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 850FFBD81824FCE200BB3A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 850FFBDF1824FCE200BB3A6A;
+			remoteInfo = RebolView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		850FFBE01824FCE200BB3A6A /* RebolView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebolView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850FFBE31824FCE200BB3A6A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		850FFBE61824FCE200BB3A6A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		850FFBE71824FCE200BB3A6A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		850FFBE81824FCE200BB3A6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		850FFBEB1824FCE200BB3A6A /* RebolView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RebolView-Info.plist"; sourceTree = "<group>"; };
+		850FFBED1824FCE200BB3A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		850FFBEF1824FCE200BB3A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		850FFBF11824FCE200BB3A6A /* RebolView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RebolView-Prefix.pch"; sourceTree = "<group>"; };
+		850FFBF31824FCE200BB3A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		850FFBFB1824FCE200BB3A6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		850FFC011824FCE200BB3A6A /* RebolViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebolViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		850FFC021824FCE200BB3A6A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		850FFC091824FCE200BB3A6A /* RebolViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RebolViewTests-Info.plist"; sourceTree = "<group>"; };
+		850FFC0B1824FCE200BB3A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		850FFC0D1824FCE200BB3A6A /* RebolViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RebolViewTests.m; sourceTree = "<group>"; };
+		850FFC171824FCEF00BB3A6A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		850FFC1A1824FD8800BB3A6A /* RBVDOMDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVDOMDocument.h; sourceTree = "<group>"; };
+		850FFC1B1824FD8800BB3A6A /* RBVDOMDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVDOMDocument.m; sourceTree = "<group>"; };
+		850FFC1C1824FD8800BB3A6A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		850FFC1D1824FD8800BB3A6A /* RBVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVAppDelegate.h; sourceTree = "<group>"; };
+		850FFC1E1824FD8800BB3A6A /* RBVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVAppDelegate.m; sourceTree = "<group>"; };
+		850FFC201824FD8800BB3A6A /* NSString+RebolSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RebolSupport.h"; sourceTree = "<group>"; };
+		850FFC211824FD8800BB3A6A /* RBVRebol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVRebol.h; sourceTree = "<group>"; };
+		850FFC221824FD8800BB3A6A /* RBVRebol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVRebol.m; sourceTree = "<group>"; };
+		850FFC241824FD8800BB3A6A /* RBVRebolBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVRebolBlock.h; sourceTree = "<group>"; };
+		850FFC251824FD8800BB3A6A /* RBVRebolBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVRebolBlock.m; sourceTree = "<group>"; };
+		850FFC261824FD8800BB3A6A /* RBVRebolObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVRebolObject.h; sourceTree = "<group>"; };
+		850FFC271824FD8800BB3A6A /* RBVRebolObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVRebolObject.m; sourceTree = "<group>"; };
+		850FFC281824FD8800BB3A6A /* RBVRebolString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVRebolString.h; sourceTree = "<group>"; };
+		850FFC291824FD8800BB3A6A /* RBVRebolString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVRebolString.m; sourceTree = "<group>"; };
+		850FFC2A1824FD8800BB3A6A /* RBVRebolUnkown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVRebolUnkown.h; sourceTree = "<group>"; };
+		850FFC2B1824FD8800BB3A6A /* RBVRebolUnkown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVRebolUnkown.m; sourceTree = "<group>"; };
+		850FFC2C1824FD8800BB3A6A /* RBVRebolWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVRebolWord.h; sourceTree = "<group>"; };
+		850FFC2D1824FD8800BB3A6A /* RBVRebolWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVRebolWord.m; sourceTree = "<group>"; };
+		850FFC2F1824FD8800BB3A6A /* DOMNode+TWProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOMNode+TWProtocol.h"; sourceTree = "<group>"; };
+		850FFC301824FD8800BB3A6A /* DOMNode+TWProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOMNode+TWProtocol.m"; sourceTree = "<group>"; };
+		850FFC311824FD8800BB3A6A /* RBVTreeWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVTreeWalker.h; sourceTree = "<group>"; };
+		850FFC321824FD8800BB3A6A /* RBVTreeWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVTreeWalker.m; sourceTree = "<group>"; };
+		850FFC331824FD8800BB3A6A /* RBVTreeWalkerNodeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVTreeWalkerNodeProtocol.h; sourceTree = "<group>"; };
+		850FFC3F1824FEC300BB3A6A /* RebolLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RebolLib.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/RebolView-fczpwxawdqrghfbpqyzymwgsqvyz/Build/Products/Debug/RebolLib.framework"; sourceTree = "<group>"; };
+		850FFC44182500BA00BB3A6A /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		850FFBDD1824FCE200BB3A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FFC401824FEC300BB3A6A /* RebolLib.framework in Frameworks */,
+				850FFC181824FCEF00BB3A6A /* WebKit.framework in Frameworks */,
+				850FFBE41824FCE200BB3A6A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FFBFE1824FCE200BB3A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FFC041824FCE200BB3A6A /* Cocoa.framework in Frameworks */,
+				850FFC031824FCE200BB3A6A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		850FFBD71824FCE200BB3A6A = {
+			isa = PBXGroup;
+			children = (
+				850FFBE91824FCE200BB3A6A /* RebolView */,
+				850FFC071824FCE200BB3A6A /* RebolViewTests */,
+				850FFBE21824FCE200BB3A6A /* Frameworks */,
+				850FFBE11824FCE200BB3A6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		850FFBE11824FCE200BB3A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				850FFBE01824FCE200BB3A6A /* RebolView.app */,
+				850FFC011824FCE200BB3A6A /* RebolViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		850FFBE21824FCE200BB3A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC3F1824FEC300BB3A6A /* RebolLib.framework */,
+				850FFC171824FCEF00BB3A6A /* WebKit.framework */,
+				850FFBE31824FCE200BB3A6A /* Cocoa.framework */,
+				850FFC021824FCE200BB3A6A /* XCTest.framework */,
+				850FFBE51824FCE200BB3A6A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		850FFBE51824FCE200BB3A6A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				850FFBE61824FCE200BB3A6A /* AppKit.framework */,
+				850FFBE71824FCE200BB3A6A /* CoreData.framework */,
+				850FFBE81824FCE200BB3A6A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		850FFBE91824FCE200BB3A6A /* RebolView */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC1D1824FD8800BB3A6A /* RBVAppDelegate.h */,
+				850FFC1E1824FD8800BB3A6A /* RBVAppDelegate.m */,
+				850FFC44182500BA00BB3A6A /* MainMenu.xib */,
+				850FFBFB1824FCE200BB3A6A /* Images.xcassets */,
+				850FFC1F1824FD8800BB3A6A /* RebolInterface */,
+				850FFC191824FD8800BB3A6A /* DOMInterface */,
+				850FFC2E1824FD8800BB3A6A /* TreeWalker */,
+				850FFBEA1824FCE200BB3A6A /* Supporting Files */,
+			);
+			path = RebolView;
+			sourceTree = "<group>";
+		};
+		850FFBEA1824FCE200BB3A6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC1C1824FD8800BB3A6A /* index.html */,
+				850FFBEB1824FCE200BB3A6A /* RebolView-Info.plist */,
+				850FFBEC1824FCE200BB3A6A /* InfoPlist.strings */,
+				850FFBEF1824FCE200BB3A6A /* main.m */,
+				850FFBF11824FCE200BB3A6A /* RebolView-Prefix.pch */,
+				850FFBF21824FCE200BB3A6A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		850FFC071824FCE200BB3A6A /* RebolViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC0D1824FCE200BB3A6A /* RebolViewTests.m */,
+				850FFC081824FCE200BB3A6A /* Supporting Files */,
+			);
+			path = RebolViewTests;
+			sourceTree = "<group>";
+		};
+		850FFC081824FCE200BB3A6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC091824FCE200BB3A6A /* RebolViewTests-Info.plist */,
+				850FFC0A1824FCE200BB3A6A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		850FFC191824FD8800BB3A6A /* DOMInterface */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC1A1824FD8800BB3A6A /* RBVDOMDocument.h */,
+				850FFC1B1824FD8800BB3A6A /* RBVDOMDocument.m */,
+			);
+			path = DOMInterface;
+			sourceTree = "<group>";
+		};
+		850FFC1F1824FD8800BB3A6A /* RebolInterface */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC201824FD8800BB3A6A /* NSString+RebolSupport.h */,
+				850FFC211824FD8800BB3A6A /* RBVRebol.h */,
+				850FFC221824FD8800BB3A6A /* RBVRebol.m */,
+				850FFC231824FD8800BB3A6A /* RebolObject */,
+			);
+			path = RebolInterface;
+			sourceTree = "<group>";
+		};
+		850FFC231824FD8800BB3A6A /* RebolObject */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC241824FD8800BB3A6A /* RBVRebolBlock.h */,
+				850FFC251824FD8800BB3A6A /* RBVRebolBlock.m */,
+				850FFC261824FD8800BB3A6A /* RBVRebolObject.h */,
+				850FFC271824FD8800BB3A6A /* RBVRebolObject.m */,
+				850FFC281824FD8800BB3A6A /* RBVRebolString.h */,
+				850FFC291824FD8800BB3A6A /* RBVRebolString.m */,
+				850FFC2A1824FD8800BB3A6A /* RBVRebolUnkown.h */,
+				850FFC2B1824FD8800BB3A6A /* RBVRebolUnkown.m */,
+				850FFC2C1824FD8800BB3A6A /* RBVRebolWord.h */,
+				850FFC2D1824FD8800BB3A6A /* RBVRebolWord.m */,
+			);
+			path = RebolObject;
+			sourceTree = "<group>";
+		};
+		850FFC2E1824FD8800BB3A6A /* TreeWalker */ = {
+			isa = PBXGroup;
+			children = (
+				850FFC2F1824FD8800BB3A6A /* DOMNode+TWProtocol.h */,
+				850FFC301824FD8800BB3A6A /* DOMNode+TWProtocol.m */,
+				850FFC311824FD8800BB3A6A /* RBVTreeWalker.h */,
+				850FFC321824FD8800BB3A6A /* RBVTreeWalker.m */,
+				850FFC331824FD8800BB3A6A /* RBVTreeWalkerNodeProtocol.h */,
+			);
+			path = TreeWalker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		850FFBDF1824FCE200BB3A6A /* RebolView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850FFC111824FCE200BB3A6A /* Build configuration list for PBXNativeTarget "RebolView" */;
+			buildPhases = (
+				850FFBDC1824FCE200BB3A6A /* Sources */,
+				850FFBDD1824FCE200BB3A6A /* Frameworks */,
+				850FFBDE1824FCE200BB3A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RebolView;
+			productName = RebolView;
+			productReference = 850FFBE01824FCE200BB3A6A /* RebolView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		850FFC001824FCE200BB3A6A /* RebolViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850FFC141824FCE200BB3A6A /* Build configuration list for PBXNativeTarget "RebolViewTests" */;
+			buildPhases = (
+				850FFBFD1824FCE200BB3A6A /* Sources */,
+				850FFBFE1824FCE200BB3A6A /* Frameworks */,
+				850FFBFF1824FCE200BB3A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850FFC061824FCE200BB3A6A /* PBXTargetDependency */,
+			);
+			name = RebolViewTests;
+			productName = RebolViewTests;
+			productReference = 850FFC011824FCE200BB3A6A /* RebolViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		850FFBD81824FCE200BB3A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RBV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "TR Solutions Pte Ltd";
+				TargetAttributes = {
+					850FFC001824FCE200BB3A6A = {
+						TestTargetID = 850FFBDF1824FCE200BB3A6A;
+					};
+				};
+			};
+			buildConfigurationList = 850FFBDB1824FCE200BB3A6A /* Build configuration list for PBXProject "RebolView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 850FFBD71824FCE200BB3A6A;
+			productRefGroup = 850FFBE11824FCE200BB3A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				850FFBDF1824FCE200BB3A6A /* RebolView */,
+				850FFC001824FCE200BB3A6A /* RebolViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		850FFBDE1824FCE200BB3A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FFBEE1824FCE200BB3A6A /* InfoPlist.strings in Resources */,
+				850FFC45182500BA00BB3A6A /* MainMenu.xib in Resources */,
+				850FFC351824FD8800BB3A6A /* index.html in Resources */,
+				850FFBFC1824FCE200BB3A6A /* Images.xcassets in Resources */,
+				850FFBF41824FCE200BB3A6A /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FFBFF1824FCE200BB3A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FFC0C1824FCE200BB3A6A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		850FFBDC1824FCE200BB3A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FFC391824FD8800BB3A6A /* RBVRebolObject.m in Sources */,
+				850FFC3A1824FD8800BB3A6A /* RBVRebolString.m in Sources */,
+				850FFC361824FD8800BB3A6A /* RBVAppDelegate.m in Sources */,
+				850FFC3B1824FD8800BB3A6A /* RBVRebolUnkown.m in Sources */,
+				850FFC341824FD8800BB3A6A /* RBVDOMDocument.m in Sources */,
+				850FFC3D1824FD8800BB3A6A /* DOMNode+TWProtocol.m in Sources */,
+				850FFBF01824FCE200BB3A6A /* main.m in Sources */,
+				850FFC3C1824FD8800BB3A6A /* RBVRebolWord.m in Sources */,
+				850FFC381824FD8800BB3A6A /* RBVRebolBlock.m in Sources */,
+				850FFC3E1824FD8800BB3A6A /* RBVTreeWalker.m in Sources */,
+				850FFC371824FD8800BB3A6A /* RBVRebol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FFBFD1824FCE200BB3A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850FFC0E1824FCE200BB3A6A /* RebolViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		850FFC061824FCE200BB3A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 850FFBDF1824FCE200BB3A6A /* RebolView */;
+			targetProxy = 850FFC051824FCE200BB3A6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		850FFBEC1824FCE200BB3A6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850FFBED1824FCE200BB3A6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		850FFBF21824FCE200BB3A6A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850FFBF31824FCE200BB3A6A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		850FFC0A1824FCE200BB3A6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850FFC0B1824FCE200BB3A6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		850FFC0F1824FCE200BB3A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		850FFC101824FCE200BB3A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		850FFC121824FCE200BB3A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RebolView-fczpwxawdqrghfbpqyzymwgsqvyz/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RebolView/RebolView-Prefix.pch";
+				INFOPLIST_FILE = "RebolView/RebolView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		850FFC131824FCE200BB3A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/RebolView-fczpwxawdqrghfbpqyzymwgsqvyz/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RebolView/RebolView-Prefix.pch";
+				INFOPLIST_FILE = "RebolView/RebolView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		850FFC151824FCE200BB3A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RebolView.app/Contents/MacOS/RebolView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RebolView/RebolView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RebolViewTests/RebolViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		850FFC161824FCE200BB3A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RebolView.app/Contents/MacOS/RebolView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RebolView/RebolView-Prefix.pch";
+				INFOPLIST_FILE = "RebolViewTests/RebolViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		850FFBDB1824FCE200BB3A6A /* Build configuration list for PBXProject "RebolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850FFC0F1824FCE200BB3A6A /* Debug */,
+				850FFC101824FCE200BB3A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850FFC111824FCE200BB3A6A /* Build configuration list for PBXNativeTarget "RebolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850FFC121824FCE200BB3A6A /* Debug */,
+				850FFC131824FCE200BB3A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		850FFC141824FCE200BB3A6A /* Build configuration list for PBXNativeTarget "RebolViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850FFC151824FCE200BB3A6A /* Debug */,
+				850FFC161824FCE200BB3A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 850FFBD81824FCE200BB3A6A /* Project object */;
+}
